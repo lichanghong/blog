@@ -1,0 +1,135 @@
+[0;1;31m●[0m ubuntu
+    State: [0;1;31mdegraded[0m
+     Jobs: 0 queued
+   Failed: 2 units
+    Since: Thu 2017-03-30 21:34:45 CST; 1 weeks 6 days ago
+   CGroup: /
+           ├─init.scope
+           │ └─1 /sbin/init
+           ├─system.slice
+           │ ├─avahi-daemon.service
+           │ │ ├─808 avahi-daemon: running [ubuntu.local
+           │ │ └─818 avahi-daemon: chroot helpe
+           │ ├─mdadm.service
+           │ │ └─835 /sbin/mdadm --monitor --pid-file /run/mdadm/monitor.pid --daemonise --scan --syslog
+           │ ├─dbus.service
+           │ │ ├─ 763 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+           │ │ └─2414 /usr/lib/x86_64-linux-gnu/fwupd/fwupd
+           │ ├─ModemManager.service
+           │ │ └─733 /usr/sbin/ModemManager
+           │ ├─cron.service
+           │ │ └─800 /usr/sbin/cron -f
+           │ ├─lvm2-lvmetad.service
+           │ │ └─382 /sbin/lvmetad -f
+           │ ├─mosquitto.service
+           │ │ └─1595 /usr/sbin/mosquitto -c /etc/mosquitto/mosquitto.conf
+           │ ├─apache2.service
+           │ │ ├─ 1623 /usr/sbin/apache2 -k start
+           │ │ ├─24841 /usr/sbin/apache2 -k start
+           │ │ ├─24863 /usr/sbin/apache2 -k start
+           │ │ ├─24873 /usr/sbin/apache2 -k start
+           │ │ ├─24878 /usr/sbin/apache2 -k start
+           │ │ ├─24879 /usr/sbin/apache2 -k start
+           │ │ ├─24880 /usr/sbin/apache2 -k start
+           │ │ ├─24882 /usr/sbin/apache2 -k start
+           │ │ ├─24893 /usr/sbin/apache2 -k start
+           │ │ ├─24898 /usr/sbin/apache2 -k start
+           │ │ └─24900 /usr/sbin/apache2 -k start
+           │ ├─iscsid.service
+           │ │ ├─1495 /sbin/iscsid
+           │ │ └─1496 /sbin/iscsid
+           │ ├─lightdm.service
+           │ │ ├─1573 /usr/sbin/lightdm
+           │ │ └─1608 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+           │ ├─accounts-daemon.service
+           │ │ └─761 /usr/lib/accountsservice/accounts-daemon
+           │ ├─colord.service
+           │ │ └─1804 /usr/lib/colord/colord
+           │ ├─atd.service
+           │ │ └─759 /usr/sbin/atd -f
+           │ ├─systemd-journald.service
+           │ │ └─373 /lib/systemd/systemd-journald
+           │ ├─udisks2.service
+           │ │ └─2381 /usr/lib/udisks2/udisksd --no-debug
+           │ ├─upower.service
+           │ │ └─1792 /usr/lib/upower/upowerd
+           │ ├─vsftpd.service
+           │ │ └─25994 /usr/sbin/vsftpd /etc/vsftpd.conf
+           │ ├─systemd-logind.service
+           │ │ └─743 /lib/systemd/systemd-logind
+           │ ├─system-getty.slice
+           │ │ └─getty@tty1.service
+           │ │   └─1585 /sbin/agetty --noclear tty1 linux
+           │ ├─systemd-udevd.service
+           │ │ └─399 /lib/systemd/systemd-udevd
+           │ ├─polkitd.service
+           │ │ └─845 /usr/lib/policykit-1/polkitd --no-debug
+           │ ├─mysql.service
+           │ │ └─1432 /usr/sbin/mysqld
+           │ ├─vboxadd-service.service
+           │ │ └─1121 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+           │ ├─cups-browsed.service
+           │ │ └─844 /usr/sbin/cups-browsed
+           │ ├─NetworkManager.service
+           │ │ ├─  786 /usr/sbin/NetworkManager --no-daemon
+           │ │ ├─  874 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --conf-file=/dev/null --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+           │ │ └─24239 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-enp0s8.pid -lf /var/lib/NetworkManager/dhclient-baee1b08-cb37-3bcf-ac0d-dc69a149a8d0-enp0s8.lease -cf /var/lib/NetworkManager/dhclient-enp0s8.conf enp0s8
+           │ ├─irqbalance.service
+           │ │ └─1598 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+           │ ├─whoopsie.service
+           │ │ └─789 /usr/bin/whoopsie -f
+           │ ├─php7.0-fpm.service
+           │ │ ├─1443 php-fpm: master process (/etc/php/7.0/fpm/php-fpm.conf)                      
+           │ │ ├─1446 php-fpm: pool www                                                            
+           │ │ └─1447 php-fpm: pool www                                                            
+           │ ├─rsyslog.service
+           │ │ └─792 /usr/sbin/rsyslogd -n
+           │ ├─lxcfs.service
+           │ │ └─738 /usr/bin/lxcfs /var/lib/lxcfs/
+           │ ├─acpid.service
+           │ │ └─796 /usr/sbin/acpid
+           │ └─rtkit-daemon.service
+           │   └─1770 /usr/lib/rtkit/rtkit-daemon
+           └─user.slice
+             └─user-1000.slice
+               ├─user@1000.service
+               │ └─init.scope
+               │   ├─1823 /lib/systemd/systemd --user
+               │   └─1824 (sd-pam)  
+               └─session-c2.scope
+                 ├─ 1702 lightdm --session-child 12 19
+                 ├─ 1831 /usr/bin/gnome-keyring-daemon --daemonize --login
+                 ├─ 1833 /sbin/upstart --user
+                 ├─ 1847 /usr/bin/VBoxClient --clipboard
+                 ├─ 1849 /usr/bin/VBoxClient --clipboard
+                 ├─ 1857 /usr/bin/VBoxClient --display
+                 ├─ 1859 /usr/bin/VBoxClient --display
+                 ├─ 1862 /usr/bin/VBoxClient --seamless
+                 ├─ 1867 /usr/bin/VBoxClient --seamless
+                 ├─ 1869 /usr/bin/VBoxClient --draganddrop
+                 ├─ 1872 /usr/bin/VBoxClient --draganddrop
+                 ├─ 1972 upstart-udev-bridge --daemon --user
+                 ├─ 1984 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-KtJjXvvdYl
+                 ├─ 1996 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+                 ├─ 2042 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+                 ├─ 2043 upstart-dbus-bridge --daemon --session --user --bus-name session
+                 ├─ 2044 upstart-file-bridge --daemon --user
+                 ├─ 2047 upstart-dbus-bridge --daemon --system --user --bus-name system
+                 ├─ 2049 gpg-agent --homedir /home/li/.gnupg --use-standard-socket --daemon
+                 ├─ 2051 /usr/bin/ibus-daemon --daemonize --xim --address unix:tmpdir=/tmp/ibus
+                 ├─ 2063 /usr/lib/gvfs/gvfsd
+                 ├─ 2069 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+                 ├─ 2071 /usr/lib/ibus/ibus-dconf
+                 ├─ 2072 /usr/lib/ibus/ibus-ui-gtk3
+                 ├─ 2077 /usr/lib/ibus/ibus-x11 --kill-daemon
+                 ├─ 2092 /usr/lib/ibus/ibus-engine-simple
+                 ├─ 2104 /usr/lib/x86_64-linux-gnu/hud/hud-service
+                 ├─ 2106 /usr/lib/unity-settings-daemon/unity-settings-daemon
+                 ├─ 2111 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+                 ├─ 2113 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+                 ├─ 2128 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+                 ├─ 2129 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service
+                 ├─ 2143 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+                 ├─ 2160 /usr/lib/dconf/dconf-service
+                 ├─ 2176 /usr/bin/pulseaudio --start --log-target=syslog
+                 ├─ 2178 /usr/lib/x86_64

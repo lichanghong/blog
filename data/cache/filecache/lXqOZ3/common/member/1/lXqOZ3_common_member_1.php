@@ -1,0 +1,30 @@
+<?php
+$data = array (
+  'exp' => 0,
+  'data' => 
+  array (
+    'uid' => '1',
+    'email' => '1211054926@qq.com',
+    'username' => 'admin',
+    'password' => '20754c348b7c9cb1337b4069f4332a10',
+    'status' => '0',
+    'emailstatus' => '0',
+    'avatarstatus' => '0',
+    'videophotostatus' => '0',
+    'adminid' => '1',
+    'groupid' => '1',
+    'groupexpiry' => '0',
+    'extgroupids' => '',
+    'regdate' => '1491364841',
+    'credits' => 5.0,
+    'notifysound' => '0',
+    'timeoffset' => '',
+    'newpm' => '0',
+    'newprompt' => '0',
+    'accessmasks' => '0',
+    'allowadmincp' => '1',
+    'onlyacceptfriendpm' => '0',
+    'conisbind' => '0',
+    'freeze' => '0',
+  ),
+);
